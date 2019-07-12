@@ -1,0 +1,26 @@
+{
+    "name": "express-with-ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start:build": "tsc -w",
+        "start:run": "nodemon build/index.js",
+        "start": "concurrently npm:start:*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexscar99/express-with-ts.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexscar99/express-with-ts/issues"
+    },
+    "homepage": "https://github.com/alexscar99/express-with-ts#readme",
+    "description": "",
+    "dependencies": {
+        "concurrently": "^4.1.1",
+        "nodemon": "^1.19.1"
+    }
+}
